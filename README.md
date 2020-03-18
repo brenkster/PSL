@@ -1,5 +1,5 @@
-# PSR
-PowerShell Software Library - Scheduled Personal Software Library
+# PSL - PowerShell Software Library
+Scheduled Personal Software Library
 Last update - 10-03-2020
 
 On this page is something that I needed but couldn't find anywhere, so made it myself.
