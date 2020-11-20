@@ -35,39 +35,39 @@ New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\.NET\.NET C
 (new-object System.Net.WebClient).DownloadFile("https://download.visualstudio.microsoft.com/download/pr/3240250e-6fe0-4258-af69-85abef6c00de/e01ee0af6c65d894f4a02bdf6705ec7b/windowsdesktop-runtime-3.1.2-win-x64.exe", "$env:OneDriveConsumer\PSL\.NET\.NET Core\windowsdesktop-runtime-3.1.2-win-x64.exe")
 #	1-9
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\7-Zip x64"
-(new-object System.Net.WebClient).DownloadFile("https://www.7-zip.org/a/7z1900-x64.msi", "$env:OneDriveConsumer\PSL\7-Zip x64\7z1900-x64.msi")
+(new-object System.Net.WebClient).DownloadFile("https://www.7-zip.org/a/7z1900-x64.exe", "$env:OneDriveConsumer\PSL\7-Zip x64\7z1900-x64.msi")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\3UTools"
-(new-object System.Net.WebClient).DownloadFile("http://d.updater.3u.com/3utools/download/3uTools_v2.38.010_Setup_.exe", "$env:OneDriveConsumer\PSL\3UTools\3uTools_v2.38.010_Setup.exe")
+(new-object System.Net.WebClient).DownloadFile("http://d.updater.3u.com/3utools/download/3uTools_v2.51.009_Setup.exe", "$env:OneDriveConsumer\PSL\3UTools\3uTools_v2.51.009_Setup.exe")
 #	A
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Adobe\Reader"
-(new-object System.Net.WebClient).DownloadFile("http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2000620034/AcroRdrDC2000620034_en_US.exe", "$env:OneDriveConsumer\PSL\Adobe\Reader\AcroRdrDC2000620034_en_US.exe")
+(new-object System.Net.WebClient).DownloadFile("http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001220048/AcroRdrDC2001220048_en_US.exe", "$env:OneDriveConsumer\PSL\Adobe\Reader\AcroRdrDC2001220048_en_US.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\AnyBurn 64 bit"
-(new-object System.Net.WebClient).DownloadFile("http://www.anyburn.com/anyburn_setup_x64.exe", "$env:OneDriveConsumer\PSL\AnyBurn 64 bit\anyburn_setup_x64.V4.8.exe")
+(new-object System.Net.WebClient).DownloadFile("http://www.anyburn.com/anyburn_setup_x64.exe", "$env:OneDriveConsumer\PSL\AnyBurn 64 bit\anyburn_setup_x64.exe")
 #	B
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\BurnAwareFree"
-(new-object System.Net.WebClient).DownloadFile("http://download.betanews.com/download/1212419334-2/burnaware_free_13.1.exe", "$env:OneDriveConsumer\PSL\BurnAwareFree\burnaware_free_13.1.exe")
+(new-object System.Net.WebClient).DownloadFile("http://download.betanews.com/download/1212419334-2/burnaware_free_13.8.exe", "$env:OneDriveConsumer\PSL\BurnAwareFree\burnaware_free_13.8.exe")
 #	C
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Google Chrome"
-(new-object System.Net.WebClient).DownloadFile("https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BCC39C0DA-E2B5-6991-9F7D-ED86107FD94A%7D%26lang%3Den%26browser%3D5%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe", "$env:OneDriveConsumer\PSL\Google Chrome\ChromeStandaloneSetup64.exe")
+(new-object System.Net.WebClient).DownloadFile("https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BDB5FABA9-FF56-7112-4450-4CD04664A259%7D%26lang%3Den%26browser%3D5%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe", "$env:OneDriveConsumer\PSL\Google Chrome\ChromeStandaloneSetup64.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Certify the Web"
-(new-object System.Net.WebClient).DownloadFile("https://certifytheweb.s3.amazonaws.com/downloads/CertifyTheWebSetup.exe", "$env:OneDriveConsumer\PSL\Certify the Web\CertifyTheWebSetup.exe")
+(new-object System.Net.WebClient).DownloadFile("https://certifytheweb.s3.amazonaws.com/downloads/archive/CertifyTheWebSetup_V5.1.8.exe", "$env:OneDriveConsumer\PSL\Certify the Web\CertifyTheWebSetup_V5.1.8.exe")
 #	E
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Epic Privacy Browser"
 (new-object System.Net.WebClient).DownloadFile("https://cdn.epicbrowser.com/epicsetup.exe", "$env:OneDriveConsumer\PSL\Epic Privacy Browser\epicsetup.exe")
 #	F
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\FastStone\Viewer"
-(new-object System.Net.WebClient).DownloadFile("http://www.faststonesoft.net/DN/FSViewerSetup74.exe", "$env:OneDriveConsumer\PSL\FastStone\Viewer\FSViewerSetup74.exe")
+(new-object System.Net.WebClient).DownloadFile("https://www.faststonesoft.net/DN/FSViewerSetup75.exe", "$env:OneDriveConsumer\PSL\FastStone\Viewer\FSViewerSetup75.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\FastStone\Viewer\Portable"
-(new-object System.Net.WebClient).DownloadFile("http://www.faststonesoft.net/DN/FSViewer74.zip", "$env:OneDriveConsumer\PSL\FastStone\Viewer\Portable\FSViewer742.zip")
+(new-object System.Net.WebClient).DownloadFile("https://www.faststonesoft.net/DN/FSViewer75.zip", "$env:OneDriveConsumer\PSL\FastStone\Viewer\Portable\FSViewer75.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\FastStone\Photo Resizer 3.8"
-(new-object System.Net.WebClient).DownloadFile("http://www.faststonesoft.net/DN/FSResizerSetup43.exe", "$env:OneDriveConsumer\PSL\FastStone\Photo Resizer 3.8\FSResizerSetup43.exe")
+(new-object System.Net.WebClient).DownloadFile("https://www.faststonesoft.net/DN/FSResizerSetup43.exe", "$env:OneDriveConsumer\PSL\FastStone\Photo Resizer 3.8\FSResizerSetup43.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\FastStone\Photo Resizer 3.8\Portable"
-(new-object System.Net.WebClient).DownloadFile("http://www.faststonesoft.net/DN/FSResizer43.zip", "$env:OneDriveConsumer\PSL\FastStone\Photo Resizer 3.8\Portable\FSResizer43.zip")
+(new-object System.Net.WebClient).DownloadFile("https://www.faststonesoft.net/DN/FSResizer43.zip", "$env:OneDriveConsumer\PSL\FastStone\Photo Resizer 3.8\Portable\FSResizer43.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Firefox"
-(new-object System.Net.WebClient).DownloadFile("https://download-installer.cdn.mozilla.net/pub/firefox/releases/74.0/win64/en-US/Firefox%20Setup%2074.0.exe", "$env:OneDriveConsumer\PSL\Firefox\V55\FirefoxSetup74.0.exe")
+(new-object System.Net.WebClient).DownloadFile("https://download-installer.cdn.mozilla.net/pub/firefox/releases/81.0.1/win64/en-US/Firefox%20Setup%2081.0.1.exe", "$env:OneDriveConsumer\PSL\Firefox\V80\FirefoxSetup81.0.1.exe")
 #	G
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\GParted"
-(new-object System.Net.WebClient).DownloadFile("https://downloads.sourceforge.net/gparted/gparted-live-1.1.0-1-i686.iso", "$env:OneDriveConsumer\PSL\GParted\gparted-live-1.1.0-1-i686.iso")
+(new-object System.Net.WebClient).DownloadFile("https://downloads.sourceforge.net/gparted/gparted-live-1.1.0-5-i686.iso", "$env:OneDriveConsumer\PSL\GParted\gparted-live-1.1.0-5-i686.iso")
 #	H
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\HTTrack"
 (new-object System.Net.WebClient).DownloadFile("http://download.httrack.com/httrack_x64-3.49.2.exe", "$env:OneDriveConsumer\PSL\HTTrack\httrack_x64-3.49.2.exe")
@@ -75,23 +75,23 @@ New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\HTTrack Por
 (new-object System.Net.WebClient).DownloadFile("http://download.httrack.com/httrack_x64-noinst-3.49.2.zip", "$env:OneDriveConsumer\PSL\HTTrack Portable\httrack_x64-noinst-3.49.2.zip")
 #	I
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\IrfanView"
-bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://download.fosshub.com/Protected/expiretime=1583893951;badurl=aHR0cHM6Ly93d3cuZm9zc2h1Yi5jb20vSXJmYW5WaWV3Lmh0bWw=/4369037a3dec7e712d46eb797913cdb030c6a57298f96d2017c0881939ce7583/5b8d1f5659eee027c3d7883a/5df21f6cc87b9a07ce73f8b2/iview454_x64_setup.exe" "$env:OneDriveConsumer\PSL\IrfanView\iview454_x64_setup.exe"
+bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://download.fosshub.com/Protected/expiretime=1602480972;badurl=aHR0cHM6Ly93d3cuZm9zc2h1Yi5jb20vSXJmYW5WaWV3Lmh0bWw=/a1d15b3ce91ae6d560b567317f33f84dd96b71b1e6f962c97cc299ef41e28335/5b8d1f5659eee027c3d7883a/5df21f6cc87b9a07ce73f8b2/iview454_plugins_x64_setup.exe" "$env:OneDriveConsumer\PSL\IrfanView\iview454_x64_setup.exe"
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\IrfanView Portable"
 (new-object System.Net.WebClient).DownloadFile("https://download3.portableapps.com/portableapps/IrfanViewPortable/IrfanViewPortable_4.54.paf.exe?20190321", "$env:OneDriveConsumer\PSL\IrfanView Portable\iview453_x64.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\ioBit Driver Booster"
-bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "http://update.iobit.com/dl/driver_booster_setup.exe" "$env:OneDriveConsumer\PSL\ioBit Driver Booster\driver_booster_setup.exe"
+bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://gsf-fl.softonic.com/868/420/77806b9edb575bf8a83d3f10417b61930a/driver_booster_setup.exe?Expires=1602464227&Signature=34b4d9e8889ba6b33f2b4a24ba883fa327419ef7&url=https://driver-booster-free.en.softonic.com&Filename=driver_booster_setup.exe" "$env:OneDriveConsumer\PSL\ioBit Driver Booster\driver_booster_setup.exe"
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\IISCrypto"
 (new-object System.Net.WebClient).DownloadFile("https://www.nartac.com/Downloads/IISCrypto/IISCrypto.exe", "$env:OneDriveConsumer\PSL\IISCrypto\IISCrypto.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\IISCrypto"
 (new-object System.Net.WebClient).DownloadFile("https://www.nartac.com/Downloads/IISCrypto/IISCryptoCli.exe", "$env:OneDriveConsumer\PSL\IISCrypto\IISCryptoCli.exe")
 #	J
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Java"
-bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u241-b07/1f5b5a70bf22433b84d0e960903adac8/jre-8u241-windows-x64.exe?GroupName=JSC&FilePath=/ESD6/JSCDL/jdk/8u241-b07/1f5b5a70bf22433b84d0e960903adac8/jre-8u241-windows-x64.exe&BHost=javadl.sun.com&File=jre-8u241-windows-x64.exe&AuthParam=1583845402_5769860b2bb0b3c8f0bce6e2bfffc44c&ext=.exe" "$env:OneDriveConsumer\PSL\Java\jre-8u241-windows-x64.exe"
+bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u261-b12/a4634525489241b9a9e1aa73d9e118e6/jre-8u261-windows-i586.exe?GroupName=JSC&FilePath=/ESD6/JSCDL/jdk/8u261-b12/a4634525489241b9a9e1aa73d9e118e6/jre-8u261-windows-i586.exe&BHost=javadl.sun.com&File=jre-8u261-windows-i586.exe&AuthParam=1602437705_8ac1c0781077a02037680dc641c6d5ef&ext=.exe" "$env:OneDriveConsumer\PSL\Java\jre-8u261-windows-x64.exe"
 #	K
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\KeePass"
-(new-object System.Net.WebClient).DownloadFile("https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.44/KeePass-2.44-Setup.exe/download", "$env:OneDriveConsumer\PSL\KeePass\KeePass-2.44-Setup.exe")
+(new-object System.Net.WebClient).DownloadFile("https://netix.dl.sourceforge.net/project/keepass/KeePass%202.x/2.46/KeePass-2.46-Setup.exe", "$env:OneDriveConsumer\PSL\KeePass\KeePass-2.46-Setup.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\KeePass Portable"
-(new-object System.Net.WebClient).DownloadFile("https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.44/KeePass-2.44.zip/download", "$env:OneDriveConsumer\PSL\KeePass Portable\KeePass-2.44.zip")
+(new-object System.Net.WebClient).DownloadFile("https://netix.dl.sourceforge.net/project/keepass/KeePass%202.x/2.46/KeePass-2.46.zip", "$env:OneDriveConsumer\PSL\KeePass Portable\KeePass-2.46.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Ketarin"
 [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
 Invoke-WebRequest -Uri "https://ketarin.org/downloads/Ketarin/Ketarin-1.8.11.zip" -OutFile "$env:OneDriveConsumer\PSL\Ketarin\Ketarin-1.8.11.zip"
@@ -104,14 +104,12 @@ New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Microsoft O
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\McAfee Avert Stinger"
 (new-object System.Net.WebClient).DownloadFile("http://downloadcenter.mcafee.com/products/mcafee-avert/stinger/stinger64.exe", "$env:OneDriveConsumer\PSL\McAfee Avert Stinger\stinger64.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\MRemoteNG"
-bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.76.20/mRemoteNG-Installer-1.76.20.24615.msi" "$env:OneDriveConsumer\PSL\MRemoteNG\mRemoteNG-Installer-1.76.20.24615.msi"
+bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://github-production-release-asset-2e65be.s3.amazonaws.com/460848/6278a380-5cff-11e9-82bd-bd9776fdd7cc?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20201011%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201011T155420Z&X-Amz-Expires=300&X-Amz-Signature=307e7a4efc6420996374f77fde979bd8f6981a561ac6070961c0d42db62a6a92&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=460848&response-content-disposition=attachment%3B%20filename%3DmRemoteNG-Installer-1.76.20.24615.msi&response-content-type=application%2Foctet-stream" "$env:OneDriveConsumer\PSL\MRemoteNG\mRemoteNG-Installer-1.76.20.24615.msi"
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\MRemoteNG\Portable"
-bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.76.20/mRemoteNG-Portable-1.76.20.24669.zip" "$env:OneDriveConsumer\PSL\MRemoteNG\Portable\mRemoteNG-Portable-1.76.20.24669.zip"
+bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://github-production-release-asset-2e65be.s3.amazonaws.com/460848/542a8780-5cff-11e9-899c-784bab35a625?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20201011%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201011T155516Z&X-Amz-Expires=300&X-Amz-Signature=2ed2edd7f260cab9fd504781ee65b2d104dd5f3dc7069b0df190da38ba104323&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=460848&response-content-disposition=attachment%3B%20filename%3DmRemoteNG-Portable-1.76.20.24669.zip&response-content-type=application%2Foctet-stream" "$env:OneDriveConsumer\PSL\MRemoteNG\Portable\mRemoteNG-Portable-1.76.20.24669.zip"
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\MediaCreationTool"
 (new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/A/B/E/ABEE70FE-7DE8-472A-8893-5F69947DE0B1/MediaCreationTool.exe", "$env:OneDriveConsumer\PSL\MediaCreationTool\MediaCreationTool.exe")
 # Exchange 2013
-New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Microsoft Exchange 2013\CU20 EN X64"
-(new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/3/9/B/39B25E37-2265-4FBC-AF87-7CA6CA089615/Exchange2013-x64-cu20.exe", "$env:OneDriveConsumer\PSL\Microsoft Exchange 2013\CU20 EN X64\Exchange2013-x64-cu20.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Microsoft Exchange 2013\CU21 EN X64"
 (new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/9/4/1/94166586-5D17-414A-97DA-CCD069BC11A2/Exchange2013-x64-cu21.exe", "$env:OneDriveConsumer\PSL\Microsoft Exchange 2013\CU21 EN X64\Exchange2013-x64-cu21.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Microsoft Exchange 2013\CU22 EN X64"
@@ -131,6 +129,10 @@ New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Microsoft E
 (new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/f/4/e/f4e4b3a0-925b-4eff-8cc7-8b5932d75b49/ExchangeServer2016-x64-cu14.iso", "$env:OneDriveConsumer\PSL\Microsoft Exchange 2016\CU14 EN X64 ISO\ExchangeServer2016-x64-cu14.iso")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Microsoft Exchange 2016\CU15 EN X64 ISO"
 (new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/5/6/6/566de1bf-336a-4662-841c-98ef4e2c30bf/ExchangeServer2016-x64-CU15.ISO", "$env:OneDriveConsumer\PSL\Microsoft Exchange 2016\CU15 EN X64 ISO\ExchangeServer2016-x64-cu15.iso")
+New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Microsoft Exchange 2016\CU16 EN X64 ISO"
+(new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/b/e/d/bed20ad6-a4cb-4a6c-b744-354b3fed6a98/ExchangeServer2016-x64-CU16.ISO", "$env:OneDriveConsumer\PSL\Microsoft Exchange 2016\CU16 EN X64 ISO\ExchangeServer2016-x64-cu16.iso")
+New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Microsoft Exchange 2016\CU17 EN X64 ISO"
+(new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/0/5/f/05fbbfff-8316-4d12-a59d-80b3c56e4d81/ExchangeServer2016-x64-cu17.iso", "$env:OneDriveConsumer\PSL\Microsoft Exchange 2016\CU17 EN X64 ISO\ExchangeServer2016-x64-cu17.iso")
 # Microsoft Visual C++
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Microsoft Visual C++\Redistributable 2005 x64"
 (new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE", "$env:OneDriveConsumer\PSL\Microsoft Visual C++\Redistributable 2005 x64\vcredist_x64.EXE")
@@ -156,14 +158,12 @@ New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\NewsLeecher
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\NewsLeecher 8\Beta 4"
 (new-object System.Net.WebClient).DownloadFile("https://www.newsleecher.com/nl_setup_beta.exe", "$env:OneDriveConsumer\PSL\NewsLeecher 8\Beta 4\nl_setup_beta.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Notepad++ X64\7.7.1"
-(new-object System.Net.WebClient).DownloadFile("https://notepad-plus-plus.org/repository/7.x/7.0/npp.7.Installer.x64.exe", "$env:OneDriveConsumer\PSL\Notepad++ X64\7.7.1\npp.7.Installer.x64.exe")
-New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Notepad++ X64 Plugin Manager"
-(new-object System.Net.WebClient).DownloadFile("https://github.com/bruderstein/nppPluginManager/releases/download/v1.4.12/PluginManager_v1.4.12_x64.zip", "$env:OneDriveConsumer\PSL\Notepad++ X64 Plugin Manager\PluginManager_v1.4.12_x64.zip")
+(new-object System.Net.WebClient).DownloadFile("https://github-production-release-asset-2e65be.s3.amazonaws.com/33014811/6bdd1200-0125-11eb-907b-ef78557b21b3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20201011%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201011T171642Z&X-Amz-Expires=300&X-Amz-Signature=f9786ce88f50efd80b9aaf4fbc58898c22c888ca6419310750a7f60612a36d5c&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=33014811&response-content-disposition=attachment%3B%20filename%3Dnpp.7.9.Installer.x64.exe&response-content-type=application%2Foctet-stream", "$env:OneDriveConsumer\PSL\Notepad++ X64\7.7.1\npp.7.9.Installer.x64.exe")
 #	P
-New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Paint.NET\4.2.1"
-(new-object System.Net.WebClient).DownloadFile("https://www.dotpdn.com/files/paint.net.4.2.10.install.zip", "$env:OneDriveConsumer\PSL\Paint.NET\4.2.1\paint.net.4.2.10.install.zip")
+New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Paint.NET"
+(new-object System.Net.WebClient).DownloadFile("https://www.dotpdn.com/files/paint.net.4.2.13.install.zip", "$env:OneDriveConsumer\PSL\Paint.NET\paint.net.4.2.13.install.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Putty"
-(new-object System.Net.WebClient).DownloadFile("https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.73-installer.msi", "$env:OneDriveConsumer\PSL\Putty\putty-64bit-0.72-installer.msi")
+(new-object System.Net.WebClient).DownloadFile("https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.74-installer.msi", "$env:OneDriveConsumer\PSL\Putty\putty-64bit-0.74-installer.msi")
 # PowerShell
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\PowerShell\2.0 for W2K8 X64 ENG"
 (new-object System.Net.WebClient).DownloadFile("http://download.microsoft.com/download/2/8/6/28686477-3242-4E96-9009-30B16BED89AF/Windows6.0-KB968930-x64.msu", "$env:OneDriveConsumer\PSL\PowerShell\2.0 for W2K8 X64 ENG\Windows6.0-KB968930-x64.msu")
@@ -190,6 +190,8 @@ New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\PowerShell\
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\PowerShell\5.1 for Win8.1 - W2K12R2 X64 ENG"
 (new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/6/F/5/6F5FF66C-6775-42B0-86C4-47D41F2DA187/Win8.1AndW2K12R2-KB3191564-x64.msu", "$env:OneDriveConsumer\PSL\PowerShell\5.1 for Win8.1 - W2K12R2 X64 ENG\Win8.1AndW2K12R2-KB3191564-x64.msu")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\PowerShell\7 Windows X64"
+bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/PowerShell-7.0.3-win-x64.msi" "$env:OneDriveConsumer\PSL\PowerShell\7 Windows X64\PowerShell-7.0.3-win-x64.msi"
+New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\PowerShell\7 Windows X64"
 bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0/PowerShell-7.0.0-win-x64.msi" "$env:OneDriveConsumer\PSL\PowerShell\7 Windows X64\PowerShell-7.0.0-win-x64.msi"
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\PowerShell Core\Windows X64"
 bitsadmin /transfer mydownload /dynamic /download /priority FOREGROUND "https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/PowerShell-6.2.3-win-x64.msi" "$env:OneDriveConsumer\PSL\PowerShell Core\Windows X64\PowerShell-6.2.3-win-x64.msi"
@@ -212,7 +214,7 @@ New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\RDCMan Remo
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Resource Hacker Portable"
 (new-object System.Net.WebClient).DownloadFile("http://www.angusj.com/resourcehacker/resource_hacker.zip", "$env:OneDriveConsumer\PSL\Resource Hacker Portable\resource_hacker.V5.1.7.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Rufus"
-(new-object System.Net.WebClient).DownloadFile("https://github.com/pbatard/rufus/releases/download/v3.9/rufus-3.9.exe", "$env:OneDriveConsumer\PSL\Rufus\rufus-3.9.exe")
+(new-object System.Net.WebClient).DownloadFile("https://github-production-release-asset-2e65be.s3.amazonaws.com/2810292/643cc300-b15d-11ea-987a-10c4ff8229a2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20201013%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201013T145026Z&X-Amz-Expires=300&X-Amz-Signature=b58feb269fabee7f20166bc5b33430d767bf6462960672180194e72359df42bb&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=2810292&response-content-disposition=attachment%3B%20filename%3Drufus-3.11.exe&response-content-type=application%2Foctet-stream", "$env:OneDriveConsumer\PSL\Rufus\rufus-3.11.exe")
 #	S
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Samsung Magician\V5.3.1"
 (new-object System.Net.WebClient).DownloadFile("https://s3.ap-northeast-2.amazonaws.com/global.semi.static/SAMSUNG_SSD_v6_0_0_190917/OLD/675B9E5CD0C5F99B41D766B27C8E0055C3909ECE3AA2FB6B74A2A1EAC1BAC402/Samsung_Magician_Installer.zip", "$env:OneDriveConsumer\PSL\Samsung Magician\V5.3.1\Samsung_Magician_Installer.V6.0.zip")
@@ -220,42 +222,42 @@ New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Skype for B
 (new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/2/0/5/2050B39B-4DA5-48E0-B768-583533B42C3B/SkypeOnlinePowerShell.exe", "$env:OneDriveConsumer\PSL\Skype for Business Online Windows PowerShell Module\SkypeOnlinePowerShell.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Spotnet"
 (new-object System.Net.WebClient).DownloadFile("http://www.spot-net.nl.vfcdn.net/downloads/spotnet/spotnet1905.zip", "$env:OneDriveConsumer\PSL\Spotnet\spotnet1905.zip")
-New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Sysinternals Suite 2019"
-(new-object System.Net.WebClient).DownloadFile("https://download.sysinternals.com/files/SysinternalsSuite.zip", "$env:OneDriveConsumer\PSL\Sysinternals Suite 2019\SysinternalsSuite.zip")
+New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Sysinternals Suite 2020"
+(new-object System.Net.WebClient).DownloadFile("https://download.sysinternals.com/files/SysinternalsSuite.zip", "$env:OneDriveConsumer\PSL\Sysinternals Suite 2020\SysinternalsSuite.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\ShowKeyPlus"
-(new-object System.Net.WebClient).DownloadFile("https://github-production-release-asset-2e65be.s3.amazonaws.com/37274791/f5c29080-2cf5-11ea-9d07-35f2e832d652?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200310%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200310T125918Z&X-Amz-Expires=300&X-Amz-Signature=af7ae77edb7b10c65498af6a53d2e8860cd06dd22f8cdff1994a78ea52b90bbe&X-Amz-SignedHeaders=host&actor_id=37576169&response-content-disposition=attachment%3B%20filename%3DShowKeyPlusPreview.zip&response-content-type=application%2Foctet-stream", "$env:OneDriveConsumer\PSL\ShowKeyPlus\ShowKeyPlusPreview.zip")
+(new-object System.Net.WebClient).DownloadFile("https://github.com/Superfly-Inc/ShowKeyPlus/releases/download/ShowKeyPlus1.1.14.1/ShowKeyPlus1.1.14.1.zip", "$env:OneDriveConsumer\PSL\ShowKeyPlus\ShowKeyPlusPreview.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\SharePointOnlineManagementShell"
 (new-object System.Net.WebClient).DownloadFile("https://download.microsoft.com/download/0/2/E/02E7E5BA-2190-44A8-B407-BC73CA0D6B87/SharePointOnlineManagementShell_19724-12000_x64_en-us.msi", "$env:OneDriveConsumer\PSL\SharePointOnlineManagementShell\SharePointOnlineManagementShell_19724-12000_x64_en-us.msi")
 #	T
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\TagScanner"
-(new-object System.Net.WebClient).DownloadFile("https://www.xdlab.ru/files/tagscan-6.1.3_x64-setup.exe", "$env:OneDriveConsumer\PSL\TagScanner\tagscan-6.1.3_x64-setup.exe")
+(new-object System.Net.WebClient).DownloadFile("https://www.xdlab.ru/files/tagscan-6.1.6_x64-setup.exe", "$env:OneDriveConsumer\PSL\TagScanner\tagscan-6.1.6_x64-setup.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\TagScanner Portable"
-(new-object System.Net.WebClient).DownloadFile("https://www.xdlab.ru/files/tagscan-6.1.3_x64.zip", "$env:OneDriveConsumer\PSL\TagScanner Portable\tagscan-6.1.3_x64.zip")
+(new-object System.Net.WebClient).DownloadFile("https://www.xdlab.ru/files/tagscan-6.1.6_x64.zip", "$env:OneDriveConsumer\PSL\TagScanner Portable\tagscan-6.1.6_x64.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Tor Browser"
-(new-object System.Net.WebClient).DownloadFile("https://dist.torproject.org/torbrowser/9.0.5/torbrowser-install-win64-9.0.5_en-US.exe", "$env:OneDriveConsumer\PSL\Tor Browser\torbrowser-install-win64-9.0.5_en-US.exe")
+(new-object System.Net.WebClient).DownloadFile("https://dist.torproject.org/torbrowser/10.0/torbrowser-install-win64-10.0_en-US.exe", "$env:OneDriveConsumer\PSL\Tor Browser\torbrowser-install-win64-10.0_en-US.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\TextCrawler"
 (new-object System.Net.WebClient).DownloadFile("https://www.digitalvolcano.co.uk/download/TextCrawler_Setup.exe", "$env:OneDriveConsumer\PSL\TextCrawler\TextCrawler_Setup.exe")
 #	V
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Virtual Router"
 (new-object System.Net.WebClient).DownloadFile("https://codeplexarchive.blob.core.windows.net/archive/projects/virtualrouter/virtualrouter.zip", "$env:OneDriveConsumer\PSL\Virtual Router\virtualrouter.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\VLC Media Player Portable"
-(new-object System.Net.WebClient).DownloadFile("https://download3.portableapps.com/portableapps/VLCPortable/VLCPortable_3.0.8.paf.exe?20190321", "$env:OneDriveConsumer\PSL\VLC Media Player Portable\VLCPortable_3.0.8.paf.exe")
+(new-object System.Net.WebClient).DownloadFile("https://download3.portableapps.com/portableapps/VLCPortable/VLCPortable_3.0.11.paf.exe?20190321", "$env:OneDriveConsumer\PSL\VLC Media Player Portable\VLCPortable_3.0.11.paf.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\VLC Media Player x64"
-(new-object System.Net.WebClient).DownloadFile("https://videolan.nl.mirrors.airvpn.org/vlc/3.0.8/win64/vlc-3.0.8-win64.exe", "$env:OneDriveConsumer\PSL\VLC Media Player x64\vlc-3.0.8-win64.exe")
+(new-object System.Net.WebClient).DownloadFile("https://videolan.mirror.liteserver.nl/vlc/3.0.11/win64/vlc-3.0.11-win64.exe", "$env:OneDriveConsumer\PSL\VLC Media Player x64\vlc-3.0.11-win64.exe")
 #	W
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\WinRAR x64"
-(new-object System.Net.WebClient).DownloadFile("https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-580.exe", "$env:OneDriveConsumer\PSL\WinRAR x64\winrar-x64-580.exe")
+(new-object System.Net.WebClient).DownloadFile("https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-591.exe", "$env:OneDriveConsumer\PSL\WinRAR x64\winrar-x64-591.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Wireshark Portable"
-(new-object System.Net.WebClient).DownloadFile("https://1.eu.dl.wireshark.org/win32/WiresharkPortable_3.2.2.paf.exe", "$env:OneDriveConsumer\PSL\Wireshark Portable\WiresharkPortable_3.2.2.paf.exe")
+(new-object System.Net.WebClient).DownloadFile("https://1.eu.dl.wireshark.org/win32/WiresharkPortable_3.2.7.paf.exe", "$env:OneDriveConsumer\PSL\Wireshark Portable\WiresharkPortable_3.2.7.paf.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\Wireshark"
-(new-object System.Net.WebClient).DownloadFile("https://1.eu.dl.wireshark.org/win64/Wireshark-win64-3.2.2.exe", "$env:OneDriveConsumer\PSL\Wireshark\Wireshark-win64-3.2.2.exe")
+(new-object System.Net.WebClient).DownloadFile("https://1.eu.dl.wireshark.org/win64/Wireshark-win64-3.2.7.exe", "$env:OneDriveConsumer\PSL\Wireshark\Wireshark-win64-3.2.7.exe")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\WSUS Offline"
-(new-object System.Net.WebClient).DownloadFile("https://download.wsusoffline.net/wsusoffline119.zip", "$env:OneDriveConsumer\PSL\WSUS Offline\wsusoffline119.zip")
+(new-object System.Net.WebClient).DownloadFile("https://download.wsusoffline.net/wsusoffline120.zip", "$env:OneDriveConsumer\PSL\WSUS Offline\wsusoffline120.zip")
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\WindowsISODownloader"
 (new-object System.Net.WebClient).DownloadFile("https://www.heidoc.net/php/Windows-ISO-Downloader.exe", "$env:OneDriveConsumer\PSL\WindowsISODownloader\Windows-ISO-DownloaderV8.32.exe")
 #	X
 New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\XnView"
-(new-object System.Net.WebClient).DownloadFile("https://download.xnview.com/XnView-win-full.exe", "$env:OneDriveConsumer\PSL\XnView\XnView-win-full.V2.49.2.exe")
+(new-object System.Net.WebClient).DownloadFile("https://download.xnview.com/XnViewMP-win-x64.exe", "$env:OneDriveConsumer\PSL\XnView\XnViewMP-win-x64.exe")
 
 #	New-Item -ItemType Directory -Force -Path "$env:OneDriveConsumer\PSL\foldername"
 #	(new-object System.Net.WebClient).DownloadFile("http://url.com", "$env:OneDriveConsumer\PSL\foldername\filename")
