@@ -1,6 +1,6 @@
 # PSL - PowerShell Software Library
 Scheduled Personal Software Library
-Last update - 10-03-2020
+Last update - 11-11-2020
 
 On this page is something that I needed but couldn't find anywhere, so made it myself.
 I have a lot of tools for work or personal usage, but every month some tool or application gets an update, security patch or feature.
