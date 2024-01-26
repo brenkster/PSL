@@ -1,6 +1,6 @@
 # PSL - PowerShell Software Library
 Scheduled Personal Software Library
-Last update - 11-11-2020
+Last update - 26-01-2024
 
 On this page is something that I needed but couldn't find anywhere, so made it myself.
 I have a lot of tools for work or personal usage, but every month some tool or application gets an update, security patch or feature.
@@ -14,7 +14,6 @@ It downloads the tools in a folder of my choice, per application and per version
 So in time it becomes a software library with various versions. :-)
 
 You can select the apps and tools you don't want by commenting them out of the script.
-
 
 To create a scheduled task that runs every week you can run this:
 $SchedTaskCred = Get-Credential -Message "Enter the Domain credentials of the Scheduled Task Service Account"            
